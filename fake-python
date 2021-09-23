@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-python
+Version: 1.0
+Provides: python, python-is-python2, python-is-python3
+Architecture: all
+Description: Fake python package to satisfy dependencies
+ Fake python package to satisfy dependencies

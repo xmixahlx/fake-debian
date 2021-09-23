@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-libgcc-7-dev
+Version: 1.0
+Provides: libgcc-7-dev, libstdc++-7-dev
+Architecture: all
+Description: Fake libgcc7-dev package to satisfy dependencies
+ Fake libgcc7-dev package to satisfy dependencies

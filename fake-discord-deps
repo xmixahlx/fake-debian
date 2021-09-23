@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-discord-deps
+Version: 1.0
+Provides: libgconf-2-4, libappindicator1, libc++1
+Architecture: all
+Description: Fake libgcc7-dev package to satisfy dependencies
+ Fake libgcc7-dev package to satisfy dependencies

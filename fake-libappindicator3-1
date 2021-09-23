@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-libappindicator3-1
+Version: 1.0
+Provides: libappindicator3-1
+Architecture: all
+Description: Fake libappindicator3-1 package to satisfy dependencies
+ Fake libappindicator3-1 package to satisfy dependencies
