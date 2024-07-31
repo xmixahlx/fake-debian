@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-alsa-plugins
+Version: 1.0
+Provides: alsa-plugins (= 1.2.7-1)
+Architecture: all
+Description: Fake alsa-plugins package
+ Fake alsa-plugins package to satisfy dependencies when pipewire is installed manually to system dirs.

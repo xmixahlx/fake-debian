@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-linux-firmware
+Version: 1.0
+Provides: firmware-ath9k-htc, firmware-linux-free, firmware-linux-nonfree, firmware-amd-graphics
+Architecture: all
+Description: Fake linux-firmware package
+ Fake package to satisfy dependencies when installing manually to system dirs from other sources.

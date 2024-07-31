@@ -1,0 +1,12 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-bluez
+Version: 1.1
+Provides: bluetooth (= 5.65-1), libbluetooth-dev (= 5.65-1), libbluetooth3 (= 5.65-1), bluez, bluez-cups, bluez-hcidump, bluez-meshd, bluez-obexd,
+ bluez-test-scripts, bluez-test-tools, bluez-tools
+Recommends: bluez-firmware, bluez-alsa-utils, python3-bluez, btscanner
+Architecture: all
+Description: Fake bluez package
+ Fake pipe package to satisfy dependencies when bluez is installed manually to system dirs.

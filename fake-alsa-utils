@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-alsa-utils
+Version: 1.0
+Provides: alsa-utils (= 1.2.7-1)
+Architecture: all
+Description: Fake alsa-utils package
+ Fake alsa-utils package to satisfy dependencies when pipewire is installed manually to system dirs.

@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-cpupower
+Version: 1.0
+Provides: linux-cpupower
+Architecture: all
+Description: Fake cpupower package
+ Fake cpupower package to satisfy dependencies when installed manually to system dirs.
