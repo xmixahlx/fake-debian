@@ -3,8 +3,8 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-bluez-alsa
-Version: 1.0
+Version: 1.0.20240811.2300
 Provides: libasound2-plugin-bluez
 Architecture: all
 Description: Fake bluez-alsa package
- Fake bluez-alsa package to satisfy dependencies when pipewire is installed manually to system dirs.
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

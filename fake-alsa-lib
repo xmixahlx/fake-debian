@@ -3,19 +3,11 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-alsa-lib
-Version: 1.0
-Provides: libasound2 (= 1.2.7.2-1),
- libasound2-data (= 1.2.7.2-1),
- libasound2-dbgsym (= 1.2.7.2-1),
- libasound2-dev (= 1.2.7.2-1),
- libasound2-doc (= 1.2.7.2-1), 
- libasound2-plugin-smixer (= 1.2.7.2-1), 
- libasound2-plugin-smixer-dbgsym (= 1.2.7.2-1), 
- libasound2-plugins (= 1.2.7.2-1),
- libatopology2 (= 1.2.7.2-1),
- libatopology2-dbgsym (= 1.2.7.2-1),
- libatopology-dev (= 1.2.7.2-1)
+Version: 1.0.202408112300
+Provides: libasound2, libasound2-data, libasound2-dbgsym,libasound2-dev, libasound2-doc, 
+ libasound2-plugin-smixer, libasound2-plugin-smixer-dbgsym, libasound2-plugins,
+ libatopology2, libatopology2t64, libatopology2-dbgsym, libatopology-dev
 
 Architecture: all
 Description: Fake alsa-lib package
- Fake alsa-lib package to satisfy dependencies when pipewire is installed manually to system dirs.
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

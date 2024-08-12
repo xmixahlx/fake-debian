@@ -3,8 +3,8 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-libgcc-7-dev
-Version: 1.0
+Version: 1.0.202408112300
 Provides: libgcc-7-dev, libstdc++-7-dev
 Architecture: all
-Description: Fake libgcc7-dev package to satisfy dependencies
- Fake libgcc7-dev package to satisfy dependencies
+Description: Fake libgcc7-dev package
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

@@ -3,8 +3,8 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-python
-Version: 1.0
+Version: 1.0.202408112300
 Provides: python, python-is-python2, python-is-python3
 Architecture: all
 Description: Fake python package to satisfy dependencies
- Fake python package to satisfy dependencies
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

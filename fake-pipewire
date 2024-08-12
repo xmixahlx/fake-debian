@@ -3,10 +3,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-pipewire
-Version: 1.0
+Version: 1.0.202408112300
 Provides: pipewire, pipewire-bin, pipewire-doc, pipewire-pulse, pipewire-tests, pipewire-media-session,
  libpipewire-0.3-0, libpipewire-0.3-common, libpipewire-0.3-ev, libpipewire-0.3-modules,
  libspa-0.2-dev, libspa-0.2-bluetooth, libspa-0.2-jack, libspa-0.2-modules, gstreamer1.0-pipewire
 Architecture: all
 Description: Fake pipewire package
- Fake pipe package to satisfy dependencies when pipewire is installed manually to system dirs.
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

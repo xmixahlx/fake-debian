@@ -3,8 +3,8 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-blueman
-Version: 1.0
+Version: 1.0.202408112300
 Provides: blueman
 Architecture: all
 Description: Fake blueman package
- Fake pipe package to satisfy dependencies when blueman is installed manually to system dirs.
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

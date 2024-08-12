@@ -3,8 +3,8 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-libappindicator3-1
-Version: 1.0
+Version: 1.0.202408112300
 Provides: libappindicator3-1
 Architecture: all
-Description: Fake libappindicator3-1 package to satisfy dependencies
- Fake libappindicator3-1 package to satisfy dependencies
+Description: Fake libappindicator3-1 package
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

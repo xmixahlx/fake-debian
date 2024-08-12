@@ -3,8 +3,8 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-alsa-ucm-conf
-Version: 1.0
+Version: 1.0.202408112300
 Provides: alsa-ucm-conf
 Architecture: all
 Description: Fake alsa-ucm-conf package
- Fake alsa-ucm-conf package to satisfy dependencies when pipewire is installed manually to system dirs.
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.
