@@ -5,6 +5,7 @@ Fake Debian Packages to resolve binary package dependencies.
 
 fake-alsa-lib<br>
 fake-alsa-plugins<br>
+fake-alsa-python<br>
 fake-alsa-ucm-conf<br>
 fake-alsa-utils<br>
 fake-blueman<br>
