@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-power-profiles-daemon
+Version: 1.0.202408312300
+Provides: power-profiles-daemon
+Architecture: all
+Description: Fake power-profiles-daemon package
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

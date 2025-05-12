@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-zstd
+Version: 1.0.202502222300
+Provides: zstd (= 1.5.6), libzstd1 (= 1.5.6), libzstd-dev (= 1.5.6)
+Architecture: all
+Description: Fake zstd package
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

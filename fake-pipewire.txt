@@ -1,0 +1,13 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-pipewire
+Version: 1.0.20250511.2300
+Provides: pipewire (= 1.4.2-1), pipewire-bin (= 1.4.2-1), pipewire-doc (= 1.4.2-1), pipewire-pulse (= 1.4.2-1), pipewire-tests (= 1.4.2-1),
+ libpipewire-0.3-0t64 (= 1.4.2-1), libpipewire-0.3-common (= 1.4.2-1), libpipewire-0.3-dev (= 1.4.2-1), libpipewire-0.3-modules (= 1.4.2-1),
+ libspa-0.2-dev (= 1.4.2-1), libspa-0.2-bluetooth (= 1.4.2-1), libspa-0.2-jack (= 1.4.2-1), libspa-0.2-modules (= 1.4.2-1), gstreamer1.4.2-1-pipewire (= 1.4.2-1),
+ libwireplumber-0.5-0 (= 1.4.2-1), libwireplumber-0.5-dev (= 1.4.2-1), wireplumber (=1.4.2-1)
+Architecture: all
+Description: Fake pipewire package
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

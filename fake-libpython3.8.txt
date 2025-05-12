@@ -2,9 +2,10 @@ Section: misc
 Priority: optional
 Standards-Version: 3.9.2
 
-Package: fake-zstd
+Package: fake-libpython3.8
 Version: 1.0.202408112300
-Provides: zstd, libzstd1, libzstd-dev
+Depends: libpython3.12
+Provides: libpython3.8, libpython3.8-minimal, libpython3.8-stdlib
 Architecture: all
-Description: Fake zstd package
+Description: Fake libpython3.8 package
  Fake package to satisfy dependencies when provides is/are installed manually to system dirs.

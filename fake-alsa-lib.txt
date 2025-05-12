@@ -3,8 +3,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-alsa-lib
-Version: 1.0.202408112300
-Provides: libasound2, libasound2-data, libasound2-dbgsym,libasound2-dev, libasound2-doc, 
+Version: 1.0.20241230.2300
+Replaces: libasound2
+Provides: libasound2 (= 1.2.13-1+b1), libasound2t64 (= 1.2.13-1+b1), libasound2-dev (= 1.2.13-1+b1),
+ libasound2-data, libasound2-dbgsym, libasound2-doc, 
  libasound2-plugin-smixer, libasound2-plugin-smixer-dbgsym, libasound2-plugins,
  libatopology2, libatopology2t64, libatopology2-dbgsym, libatopology-dev
 

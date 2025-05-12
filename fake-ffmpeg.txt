@@ -1,0 +1,27 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: fake-ffmpeg
+Version: 1.0.20241101.2300
+Provides: ffmpeg (=10:7.1),
+ libavcodec61 (= 10:7.1),
+ libavcodec-dev (= 10:7.1),
+ libavdevice61 (= 10:7.1),
+ libavdevice-dev (= 10:7.1),
+ libavfilter10 (= 10:7.1),
+ libavfilter-dev (= 10:7.1),
+ libavformat61 (= 10:7.1),
+ libavformat-dev (= 10:7.1),
+ libavutil59 (= 10:7.1),
+ libavutil-dev (= 10:7.1),
+ libpostproc58 (= 10:7.1),
+ libpostproc-dev (= 10:7.1),
+ libswresample5 (= 10:7.1),
+ libswresample-dev (= 10:7.1),
+ libswscale8 (= 10:7.1),
+ libswscale-dev (= 10:7.1)
+Recommends: 
+Architecture: all
+Description: Fake ffmpeg package
+ Fake package to satisfy dependencies when provides is/are installed manually to system dirs.
